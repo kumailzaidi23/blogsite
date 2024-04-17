@@ -10,7 +10,7 @@ github: https://github.com/kumailzaidi23
 
 # Something about me maybe
 
-Hi, I'm a Batman, but for the web. Hoodie up, fingers tap-dancing on the keyboard, I'm not just breaking codes; I'm breaking stereotypes, one firewall at a time.
+Hi, I'm a Batman, but for the binary. Hoodie up, fingers tap-dancing on the keyboard, I'm not just breaking codes; I'm breaking stereotypes, one firewall at a time.
 
 While my classmates are counting sheep, I'm counting vulnerabilities. But hey, don't sweat it, I'm mostly on the side of the good guys. Wink wink.
 
