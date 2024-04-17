@@ -5,8 +5,8 @@ const siteMetadata = {
   description: 'A blog exclusively dedicated to my CTF write-ups, discoveries and related content.',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://arcus10.vercel.app',
-  siteRepo: 'https://github.com/ArcusTen/blogsite',
+  siteUrl: 'https://strangek.vercel.app',
+  siteRepo: 'https://github.com/kumailzaidi23/blogsite',
   siteLogo: '/static/favicons/favicon-32x32.png',
   image: '/static/images/kumail.jpg',
   socialBanner: '/static/images/twitter-card.png',
