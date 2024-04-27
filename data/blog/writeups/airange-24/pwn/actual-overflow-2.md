@@ -16,8 +16,6 @@ What can you do if I don't give you a function for the flag?
 
 In the code it can be seen that there is no flag function but rather a function that just prints the string that we enter.
 
-*image*
-
 so for this challenge we have to return to shell code so that we can extract the flag.txt,
 
 This can be done by overflowing the buffer and sending the address of buffer that stores input, but with a slight twist that instead of sending just a value or a byte we will inject the shell code in the start of buffer overflow so the next the address that we send after buffer overflow it will redirect to the same buffer again but this time it will execute the shell code. just run the command “**cat flag.txt**”
@@ -54,4 +52,4 @@ io.sendline(payload)
 
 io.interactive()
 ```
-![Screenshot_2024-03-08_12-58-17.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/09b77bf4-1452-421f-99f6-d0fb986688b0/f0512643-db41-4246-a335-dcc49a49cef1/Screenshot_2024-03-08_12-58-17.png)
+![Screenshot](/static/images/overflow2/1.png)

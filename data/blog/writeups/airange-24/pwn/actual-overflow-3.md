@@ -14,7 +14,7 @@ I gave you the function back, but some mitigations were enabled, can you bypass 
 
 ## Solution
 
-![Screenshot_2024-03-09_21-09-54.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/09b77bf4-1452-421f-99f6-d0fb986688b0/9c8136da-f9aa-4fad-8dcf-e510a670cd1f/Screenshot_2024-03-09_21-09-54.png)
+![Screenshot](/static/images/overflow3/3.png)
 
 In this challenge the pie and nx is enabled which means that every time a binary is executed it will generate the random address of every instruction in binary. BUT are those really random???
 
@@ -32,7 +32,7 @@ Well it's just the base address that is random anything except that is an additi
 
 Here’s how i calculated offset between main and win function system call.
 
-![Screenshot_2024-03-09_21-26-11.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/09b77bf4-1452-421f-99f6-d0fb986688b0/bac3596c-ada0-4358-a704-de39fa56cbba/Screenshot_2024-03-09_21-26-11.png)
+![Screenshot](/static/images/overflow3/4.png)
 
 $$
 0x5555555552bb - 0x0000555555555253 = 0x68
@@ -80,4 +80,4 @@ print(p.recvall())
 p.close()
 ```
 
-![Screenshot_2024-03-09_21-27-29.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/09b77bf4-1452-421f-99f6-d0fb986688b0/54999e6c-1f68-4f99-8f4c-f26395e6d5bd/Screenshot_2024-03-09_21-27-29.png)
+![Screenshot](/static/images/overflow3/5.png)
